@@ -1,2 +1,0 @@
-# neam
-TEST FOR NEAM
