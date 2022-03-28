@@ -5,12 +5,12 @@
   justify-content: center;
   width: 100%;
   background: linear-gradient(90deg, rgb(125 214 178) 0%, rgb(31 92 66) 100%);
-  opacity: 0.7;
   min-height: 90vh;
+  opacity: 0.8;
 }
 
 .home {
-  background-image: url("/src/background_image.jpeg");
+  background-image: url("/src/margi.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,4 +19,8 @@
 .welcome-h1 {
   font-size: 2rem;
   color: #fff;
+}
+
+.home-image-slider {
+  opacity: 1 !important;
 }

@@ -43,6 +43,7 @@ import "./Navbar.css";
 import Dropdown from "../Dropdown";
 import { Link } from "react-router-dom";
 import rabin from "./NEAMLogo.png";
+import flag from './flag.gif'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -74,6 +75,7 @@ function Navbar() {
       <nav className="navbar">
         <Link to="/" className="navbar-logo">
           <img src={rabin} className="main-logo" />
+          <img src={flag} className="main-logo" />
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-coffee" : "fa-brands fa-google"}></i>
